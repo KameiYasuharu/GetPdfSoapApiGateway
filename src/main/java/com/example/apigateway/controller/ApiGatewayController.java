@@ -36,7 +36,7 @@ public class ApiGatewayController {
 	 * PDFダウンロード画面を表示する
 	 * @return PDFダウンロード画面のテンプレート名
 	 */
-	@GetMapping("/")
+	@GetMapping("/getPdf_OP7")
 	public String showPdfDownloadForm() {
 		return "pdfDownload";
 	}
