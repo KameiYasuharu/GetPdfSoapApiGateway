@@ -45,7 +45,7 @@ public class ApiGatewayController {
 	 * API Gateway経由でPDFを取得する
 	 * @return PDFファイルを含むレスポンスエンティティ
 	 */
-	@GetMapping("/ApiGateway")
+	@GetMapping("/ApiGateway_OP7")
 	@ResponseBody
 	public ResponseEntity<InputStreamResource> pdfGateway() {
 		try {
@@ -106,3 +106,4 @@ public class ApiGatewayController {
 		}
 	}
 }
+
